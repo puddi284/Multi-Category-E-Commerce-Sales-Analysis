@@ -8,7 +8,7 @@
 
 ## 📌 1. Project Objective
 
-Analyze 3 months of transaction data (Oct–Dec 2022) from a large multi-category e-commerce platform to:
+Analyze 3 months of transaction data (Oct–Dec 2019) from a large multi-category e-commerce platform to:
 
 - Identify top-selling products, categories, and brands  
 - Understand customer behavior through sessions and RFM segmentation  
@@ -33,7 +33,7 @@ The project uses 3 monthly CSV datasets: `Ecommerce_oct`, `Ecommerce_nov`, `Ecom
 
 ### 🛍 Top-Selling Products
 
-<img src="images/top_products.png" alt="Top Products" width="600">
+<img src="image/top_products.png" alt="Top Products" width="600">
 
 Top 3 products were extracted for each month using revenue (`SUM(price)`) and purchase count.
 
@@ -41,7 +41,7 @@ Top 3 products were extracted for each month using revenue (`SUM(price)`) and pu
 
 ### 🧠 RFM Segmentation
 
-<img src="images/rfm_table.png" alt="RFM Table" width="600">
+<img src="image/rfm_table.png" alt="RFM Table" width="600">
 
 Each customer was analyzed by **Recency**, **Frequency**, and **Monetary** metrics to highlight VIPs, loyal users, and those at risk of churn.
 
@@ -49,7 +49,7 @@ Each customer was analyzed by **Recency**, **Frequency**, and **Monetary** metri
 
 ### 🏷️ Brand Dominance by Category
 
-<img src="images/brand_by_category.png" alt="Brand by Category" width="600">
+<img src="image/brand_by_category.png" alt="Brand by Category" width="600">
 
 Brands with the highest revenue and buyer counts were ranked within each category.
 
@@ -57,7 +57,7 @@ Brands with the highest revenue and buyer counts were ranked within each categor
 
 ### 🔁 Session Conversion Rate
 
-<img src="images/session_end.png" alt="Session CVR" width="400">
+<img src="image/session_end.png" alt="Session CVR" width="400">
 
 From **29,997 total sessions**, **558 ended in purchase**, yielding a **conversion rate (CVR) of ~1.86%**.
 
