@@ -19,7 +19,7 @@ The SQL script performs the following analyses:
 
 ## 📁 Files Included
 
-- `ecommerce_sales_analysis.sql`: Main SQL script containing all data transformation and analysis queries.
+- `code.sql`: Main SQL script containing all data transformation and analysis queries.
 
 ## ▶️ How to Use
 
@@ -28,7 +28,7 @@ The SQL script performs the following analyses:
    - `Ecommerce_nov`
    - `Ecommerce_dec`
 
-2. Execute the SQL script (`ecommerce_sales_analysis.sql`) in order. The script:
+2. Execute the SQL script (`code.sql`) in order. The script:
    - Merges monthly data
    - Converts event timestamps
    - Performs analytical queries
